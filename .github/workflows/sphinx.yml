@@ -1,0 +1,19 @@
+name: Sphinx build
+
+on: push
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Build HTML
+        uses: ammaraskar/sphinx-action@master
+        with:
+          docs-folder: 'docs/'
+      - name: Upload GitHub Pages artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: docs/_build/html/
+      - name: Deploy to GitHub Pages
+        uses: actions/deploy-pages@v1
