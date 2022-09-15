@@ -24,3 +24,11 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 html_title = "Unofficial Lockly API Documentation"
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
+
+# -- Theme configuration -----------------------------------------------------
+html_context = {
+    "display_github": True,
+    "github_user": "hacker1024",
+    "github_repo": "lockly_api_docs",
+    "github_version": "master/",
+}
