@@ -1,7 +1,7 @@
-Unofficial Lockly API Documentation
+Unofficial Lockly API documentation
 ===================================
 
-Welcome to the Unofficial Lockly API Documentation!
+Welcome to the Unofficial Lockly API documentation!
 
 This is an ongoing effort to document the various `Lockly <https://lockly.com.au>`_ APIs, with the goal of
 enabling the development of projects such as:

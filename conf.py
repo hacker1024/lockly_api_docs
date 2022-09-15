@@ -6,7 +6,7 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
-project = "Unofficial Lockly API Documentation"
+project = "Unofficial Lockly API documentation"
 copyright = "2022, hacker1024"
 author = "hacker1024"
 
@@ -21,7 +21,7 @@ exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 # -- Options for HTML output -------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#options-for-html-output
 
-html_title = "Unofficial Lockly API Documentation"
+html_title = "Unofficial Lockly API documentation"
 html_theme = "sphinx_rtd_theme"
 html_static_path = ["_static"]
 
