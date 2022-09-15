@@ -1,13 +1,10 @@
 MQTT API
 ========
 
-This is the entrypoint to the MQTT API documentation.
+Lockly use the `Alibaba Cloud IoT Platform <https://www.alibabacloud.com/product/iot>`_ to communicate with devices over MQTT.
 
-The MQTT API is used by the Lockly app to receive lock status updates.
+.. toctree::
+   :caption: General documentation
+   :maxdepth: 2
 
-.. warning:: Not much is yet known about the MQTT API - take any statements made here with a grain of salt.
-
-.. note::
-
-   The MQTT authentication process has been successfully reverse engineered and implemented,
-   and will be documented here soon.
+   authentication
